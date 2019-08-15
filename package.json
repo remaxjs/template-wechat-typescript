@@ -1,0 +1,23 @@
+{
+  "name": "remax-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Starter template for Remax apps",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Caihuanyu <eterlf41@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.1",
+    "react": "^16.8.6",
+    "remax": "1.0.1-dev.1",
+    "remax-cli": "1.0.1-dev.1",
+    "rimraf": "^2.6.3"
+  }
+}
