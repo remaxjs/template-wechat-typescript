@@ -9,9 +9,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "remax build -t wechat -w",
+    "build": "NODE_ENV=production remax build -t wechat",
     "clean": "rimraf dist",
-    "prebuild": "npm run clean",
-    "build": "NODE_ENV=production remax build -t wechat"
+    "prebuild": "npm run clean"
   },
   "dependencies": {
     "react": "^16.12.0",
