@@ -1,8 +1,5 @@
 {
 	"miniprogramRoot": "dist/",
-	"projectname": "%E6%B5%8B%E8%AF%95%E5%B0%8F%E7%A8%8B%E5%BA%8F",
-	"description": "测试小程序",
-	"appid": "wx15002fb034d4fb9a",
 	"setting": {
 		"urlCheck": false,
 		"es6": false,
