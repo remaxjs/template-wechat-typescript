@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { View, Text, Image } from 'remax/wechat';
-import _ from './index.module.css';
+import styles from './index.module.css';
 
 export default () => {
   return (
-    <View className={_.app}>
-      <View className={_.header}>
+    <View className={styles.app}>
+      <View className={styles.header}>
         <Image
           src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*OGyZSI087zkAAAAAAAAAAABkARQnAQ"
-          className={_.logo}
+          className={styles.logo}
         />
-        <View className={_.text}>
-          编辑 <Text className={_.path}>src/pages/index/index.tsx</Text> 开始
+        <View className={styles.text}>
+          编辑 <Text className={styles.path}>src/pages/index/index.tsx</Text> 开始
         </View>
       </View>
     </View>

@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.16",
+    "chokidar": "^3.3.0",
     "typescript": "^3.7.3"
   }
 }
