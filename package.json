@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "remax build -t wechat -w",
-    "build": "NODE_ENV=production remax build -t wechat",
+    "build": "cross-env NODE_ENV=production remax build -t wechat",
     "clean": "rimraf dist",
     "prebuild": "npm run clean"
   },
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/react": "^16.9.16",
     "chokidar": "^3.3.0",
+    "cross-env": "^7.0.2",
     "remax-cli": "^1.9.0",
     "rimraf": "^3.0.0",
     "typescript": "^3.7.3"
